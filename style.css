@@ -41,6 +41,9 @@ nav .container{
     font-size: 17px;
     font-weight: 500;
 }
+.bar{
+    display: none;
+}
 
 /* Styling hero section */
 .hero{
@@ -272,4 +275,101 @@ footer .container{
     font-size: 24px;
     display: flex;
     gap: 30px;
+}
+
+@media (max-width:480px){
+    nav .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+.links{
+    display: none;
+}
+.sct-title h1{
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    width: 320px;
+}
+.sct-title p{
+    width: 320px;
+}
+.bar{
+    display: block;
+    display: flex;
+    justify-content: end;
+}
+.bar img{
+    width: 80%;
+}
+.logo img{
+    width: 70%;
+}
+.hero-text h1{
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+    width: 320px;
+}
+.hero-text p{
+    width: 400px;
+}
+.hero-btn{
+    flex-direction: column;
+    align-items: center;
+}
+.hero-img {
+    display: none;
+}
+.section{
+    background-image: url('img/mobile.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-color: #181818;
+}
+
+/* Styling section1 */
+
+.sct1-block{
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Styling section2 */
+
+.sct2-block1{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 30px;
+}
+.block2{
+    display: none;
+}
+
+/* Styling section 3 */
+
+.sct3-block{
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 30px;
+}
+.sct3-block .box:last-child img{
+    width: 100px;
+}
+
+/* Styling footer section */
+
+footer .container{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-links{
+    flex-direction: column;
+}
 }
