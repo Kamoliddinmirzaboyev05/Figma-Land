@@ -5,6 +5,7 @@
     box-sizing: border-box;
     transition: all .5s ease;
     font-family: 'Montserrat';
+    overflow-x: hidden;
 }
 .container{
     max-width: 1200px;
